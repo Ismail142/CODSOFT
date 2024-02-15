@@ -1,0 +1,27 @@
+@import 'tailwindcss/base';
+@import'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   background-image: url('../public/images/dark-bg.png');
+   background-repeat: no-repeat;
+   @apply bg-primaryColor flex justify-center font-quickSand text-slate-400 font-semibold;
+}
+
+#root {
+   @apply lg:w-[95%]
+}
+
+main {
+   @apply flex max-lg:px-5
+}
+
+
+
+.heading-primary {
+   @apply text-white font-playfair font-bold;
+}
